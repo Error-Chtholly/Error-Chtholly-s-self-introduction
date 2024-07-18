@@ -19,6 +19,7 @@ body {
 }
 
 html::-webkit-scrollbar {
+    /* 这里设置拖动条样式 */
     width: 0.6rem;
 }
 
@@ -35,8 +36,11 @@ html::-webkit-scrollbar-thumb {
     margin: 0;
     padding: 0;
     display: flex;
+    /* 这里设置总容器的display为flex */
     align-items: center;
+    /* 这里设置总容器的子元素垂直居中 */
     justify-content: space-between;
+    /* 这里设置总容器的子元素水平居中 */
     background: linear-gradient(to bottom, #0099ff, #00ffc3);
     /* 这里设置body的背景为线性渐变 */
     background-repeat: no-repeat;
@@ -46,6 +50,7 @@ html::-webkit-scrollbar-thumb {
 .container .cardContainer {
     /* 这里设置cardContainer的样式 */
     flex: 30rem;
+    /* 这里设置cardContainer的flex为30rem */
     position: sticky;
     /* 固定定位 */
     align-self: flex-start;
@@ -54,9 +59,9 @@ html::-webkit-scrollbar-thumb {
     left: 0.66rem;
     right: 0.66rem;
     width: auto;
-    /* 这里设置cardContainer的宽度为30rem */
+    /* 这里设置cardContainer的宽度为auto */
     height: auto;
-    /* 这里设置cardContainer的高度为30rem */
+    /* 这里设置cardContainer的高度为auto */
     /* background:linear-gradient(to bottom, #ffb5e9, #ffffff); */
     background: linear-gradient(45deg, #ffb5e9, #ffffff);
     /* 这里设置cardContainer的背景为线性渐变 */
@@ -122,6 +127,7 @@ html::-webkit-scrollbar-thumb {
 
 .container .cardContainer .myPicture .hidden-text {
     opacity: 0;
+    /* 这里设置cardContainer中的myPicture的hidden-text的透明度为0 */
     transition: all 0.5s ease;
     margin: 0 auto;
     margin: 0 auto;
@@ -133,7 +139,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container .cardContainer .myPicture:hover .hidden-text {
+    /* 这里设置cardContainer中的myPicture的鼠标悬停样式 */
     opacity: 1;
+    /* 这里设置cardContainer中的myPicture的hidden-text的透明度为1 */
 }
 
 .container .cardContainer .myPicture:hover {
@@ -260,6 +268,7 @@ html::-webkit-scrollbar-thumb {
 .container .informationContainer {
     /* 这里设置cardContainer的样式 */
     flex: 73.88rem;
+    /* 这里设置cardContainer的flex为73.88rem */
     margin-top: 0.589rem;
     margin-left: 0;
     margin-bottom: 0.6rem;
@@ -339,7 +348,9 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer {
     display: flex;
+    /* 这里设置boxContainer的弹性盒子 */
     height: auto;
+    /* 这里设置boxContainer的高度为auto */
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     align-items: center;
@@ -347,13 +358,18 @@ html::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
     /* 这里设置boxContainer的子元素换行 */
     transition: all 0.5s ease;
+    /* 这里设置boxContainer的过渡效果 */
 }
 
 .container .informationContainer .boxContainer .innerbox {
     display: flex;
+    /* 这里设置innerbox的弹性盒子 */
     align-items: center;
+    /* 这里设置innerbox的垂直居中 */
     justify-content: space-between;
+    /* 这里设置innerbox的水平居中 */
     flex: 1 1 10rem;
+    /* 这里设置innerbox的弹性盒子 */
     background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
     border: 0.09rem solid rgba(255, 255, 255, 0.9);
@@ -362,6 +378,7 @@ html::-webkit-scrollbar-thumb {
     padding: 0 1rem 0 1rem;
     box-shadow: 0rem 0rem 0.49rem rgb(200, 0, 255);
     transition: all 0.5s ease;
+    /* 这里设置innerbox的过渡效果 */
 }
 
 .container .informationContainer .boxContainer .innerbox:hover {
@@ -435,6 +452,7 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box {
     flex: 1;
+    /* 这里设置box的弹性盒子拥有1份大小 */
     background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
     border: 0.09rem solid rgba(255, 255, 255, 0.9);
@@ -596,6 +614,7 @@ html::-webkit-scrollbar-thumb {
     font-weight: lighter;
     line-height: 1.89rem;
     float: right;
+    /* 这里设置右浮动 */
     margin-top: -0.234rem;
     transition: all 0.5s ease;
 }
@@ -607,6 +626,7 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .iconbox {
     flex: 1;
+    /* 这里设置iconbox的弹性盒子拥有1份大小 */
     background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
     border: 0.09rem solid rgba(255, 255, 255, 0.9);
@@ -614,10 +634,14 @@ html::-webkit-scrollbar-thumb {
     margin: 0 0.4rem 1.4rem 0.4rem;
     padding: 0.66rem;
     text-align: center;
+    /* 这里设置居中 */
     align-items: center;
+    /* 这里设置居中 */
     box-shadow: 0rem 0rem 0.49rem rgb(200, 0, 255);
     cursor: pointer;
+    /* 这里设置鼠标指针 */
     transition: all 0.5s ease;
+    /* 这里设置过渡效果 */
 }
 
 .container .informationContainer .boxContainer .iconbox:hover {
@@ -644,6 +668,7 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .rightbox {
     flex: 1;
+    /* 这里设置右侧盒子的弹性盒子拥有1份大小 */
     font-family: "Consolas";
     font-style: italic;
     font-size: 1.14rem;
@@ -656,7 +681,9 @@ html::-webkit-scrollbar-thumb {
     margin: 0.66rem 0.4rem 0.44rem 0.4rem;
     padding: 0.66rem;
     text-align: center;
+    /* 这里设置居中 */
     align-items: center;
+    /* 这里设置居中 */
     box-shadow: 0rem 0rem 0.49rem rgb(200, 0, 255);
     cursor: pointer;
     transition: all 0.5s ease;
@@ -670,6 +697,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width:1200px) {
+    /* 1200px分辨率以下的样式变换 */
 
     .container {
         flex-flow: column;
@@ -726,6 +754,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width:520px) {
+    /* 520px分辨率以下的样式变换 */
 
     .container {
         flex-flow: column;
