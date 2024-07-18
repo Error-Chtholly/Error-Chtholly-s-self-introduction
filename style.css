@@ -1,4 +1,16 @@
 /* 这里存放css样式表 */
+/* 为了使页面富有弹性，符合多端的浏览，css样式主要使用了：
+1.flex弹性盒子布局：使用flex布局可以使页面的布局更加灵活，可以根据屏幕大小自动调整布局 总容器设置display:flex，子容器设置flex初值分配大小
+2.@media媒体查询：使用媒体查询可以针对不同的屏幕大小设置不同的样式，使页面在不同设备上更加友好
+3.hover动画：使用CSS3动画可以使页面的动画效果更加丰富
+4.transition过渡：使用CSS3过渡可以使页面的元素变化更加平滑
+5.display: flex; align-items: center; justify-content: space-between;
+6.变换拖动条样式：使用webkit-scrollbar可以使页面的滚动条更加美观
+7.灵活使用sticky，inline-block等position和display属性定位
+8.align-self: flex-start;左对齐
+9.cursor: pointer;鼠标指针
+10.大小设置auto 根据外边距和内边距自动调整大小灵活布局 flex-wrap: wrap; 设置弹性盒子父容器中的子元素自动换行灵活调整布局 */
+
 html,
 body {
     margin: 0;
@@ -37,6 +49,7 @@ html::-webkit-scrollbar-thumb {
     position: sticky;
     /* 固定定位 */
     align-self: flex-start;
+    /* 这里设置cardContainer的左对齐 */
     top: 0.6rem;
     left: 0.66rem;
     right: 0.66rem;
@@ -252,9 +265,9 @@ html::-webkit-scrollbar-thumb {
     margin-bottom: 0.6rem;
     margin-right: 0.6rem;
     width: auto;
-    /* 这里设置cardContainer的宽度为30rem */
+    /* 这里设置cardContainer的宽度为auto */
     height: auto;
-    /* 这里设置cardContainer的高度为30rem */
+    /* 这里设置cardContainer的高度为auto */
     /* background:linear-gradient(to bottom, #ffb5e9, #ffffff); */
     background: linear-gradient(45deg, #ffb5e9, #ffffff);
     /* 这里设置cardContainer的背景为线性渐变 */
