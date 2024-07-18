@@ -146,6 +146,7 @@ html::-webkit-scrollbar-thumb {
 
 .container .cardContainer .myPicture:hover {
     box-shadow: 0rem 0rem 1.9rem rgb(255, 0, 0);
+    /* 这里设置cardContainer中的myPicture的鼠标悬停样式 */
 }
 
 .container .cardContainer .ico {
@@ -273,6 +274,7 @@ html::-webkit-scrollbar-thumb {
     margin-left: 0;
     margin-bottom: 0.6rem;
     margin-right: 0.6rem;
+    /* 这里设置cardContainer的外边距为0.589rem 0 0.6rem 0.6rem */
     width: auto;
     /* 这里设置cardContainer的宽度为auto */
     height: auto;
@@ -294,8 +296,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container .informationContainer:hover {
+    /* 这里设置cardContainer的鼠标悬停样式 */
     border: 0.09rem solid rgb(0, 81, 255);
+    /* 这里设置cardContainer的鼠标悬停样式 */
     box-shadow: 0rem 0rem 1.99rem rgb(255, 255, 255);
+    /* 这里设置cardContainer的鼠标悬停样式 */
 }
 
 .container .informationContainer h1 {
@@ -303,19 +308,25 @@ html::-webkit-scrollbar-thumb {
     font-size: 2.1rem;
     /* 这里设置informationContainer中的h1的字体大小为2rem */
     font-weight: bolder;
+    /* 这里设置informationContainer中的h1的字体粗细为粗体 */
     margin-top: 0;
+    /* 这里设置informationContainer中的h1的外边距为0 */
     font-family: "幼圆";
+    /* 这里设置informationContainer中的h1的字体为幼圆 */
     font-style: italic;
+    /* 这里设置informationContainer中的h1的字体样式为斜体 */
     color: rgb(0, 136, 255);
     text-shadow: 0rem 0rem 0.2rem rgb(255, 0, 0);
     /* 文本阴影 */
     transition: all 0.5s ease;
+    /* 这里设置informationContainer中的h1的过渡效果 */
 }
 
 .container .informationContainer h1:hover {
     /* 这里设置informationContainer中的h1的样式 */
     color: #ffffff;
     text-shadow: 0rem 0rem 0.49rem rgb(195, 0, 255);
+    /* 文本阴影 */
 }
 
 .container .informationContainer p {
@@ -388,11 +399,14 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .innerbox .pic {
     text-align: center;
+    /* 这里设置innerbox的pic的文本居中 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
+    /* 这里设置innerbox的pic的背景为线性渐变 */
     margin: 0.4rem;
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+    /* 这里设置innerbox的pic的圆角半径为50% */
     border: 0.09rem solid rgb(255, 0, 140);
     box-shadow: 0rem 0rem 0.49rem rgb(93, 0, 255);
     display: flex;
@@ -415,12 +429,15 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .innerbox .contactbox {
     flex: 1;
+    /* 这里设置innerbox的contactbox的弹性盒子 */
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
     height: 100%;
     border-radius: 0.44rem;
     margin: 0 0.4rem 1.4rem 0.4rem;
+    /* 这里设置innerbox的contactbox的外边距为0.4rem */
     padding: 0 1rem 0 1rem;
+    /* 这里设置innerbox的contactbox的内边距为0.4rem */
 }
 
 .container .informationContainer .boxContainer .innerbox .contactbox .practicespan {
