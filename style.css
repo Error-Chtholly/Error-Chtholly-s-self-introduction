@@ -670,7 +670,9 @@ html::-webkit-scrollbar-thumb {
     flex: 1;
     /* 这里设置右侧盒子的弹性盒子拥有1份大小 */
     font-family: "Consolas";
+    /* 这里设置字体为Consolas */
     font-style: italic;
+    /* 这里设置字体为斜体 */
     font-size: 1.14rem;
     color: #ff00c8;
     text-shadow: 0rem 0rem 0.49rem rgb(195, 0, 255);
@@ -687,6 +689,7 @@ html::-webkit-scrollbar-thumb {
     box-shadow: 0rem 0rem 0.49rem rgb(200, 0, 255);
     cursor: pointer;
     transition: all 0.5s ease;
+    /* 这里设置过渡效果 */
 }
 
 .container .informationContainer .rightbox:hover {
@@ -701,14 +704,20 @@ html::-webkit-scrollbar-thumb {
 
     .container {
         flex-flow: column;
+        /* 这里设置弹性盒子的排列方式为垂直 */
         padding: 0;
+        /* 这里设置元素的内边距为0 */
         margin: 0;
+        /* 这里设置元素的外边距为0 */
         justify-content: center;
+        /* 这里设置内容居中 */
     }
 
     .container .cardContainer {
         position: static;
+        /* 这里设置元素的位置为静态 */
         width: auto;
+        /* 这里设置元素的宽度为自动 */
         padding: 2rem;
         margin: 0 auto;
         margin-top: 0.66rem;
@@ -758,13 +767,18 @@ html::-webkit-scrollbar-thumb {
 
     .container {
         flex-flow: column;
+        /* 这里设置弹性盒子的排列方式为垂直 */
         padding: 0;
+        /* 这里设置元素的内边距为0 */
         margin: 0;
+        /* 这里设置元素的外边距为0 */
         justify-content: center;
+        /* 这里设置内容居中 */
     }
 
     .container .cardContainer {
         position: static;
+        /* 这里设置元素的位置为静态 */
         width: auto;
         padding: 2rem;
         margin: 0 auto;
