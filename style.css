@@ -667,6 +667,7 @@ html::-webkit-scrollbar-thumb {
 
     .container .cardContainer {
         position: static;
+        width: auto;
         padding: 2rem;
         margin: 0 auto;
         margin-top: 0.66rem;
@@ -687,7 +688,7 @@ html::-webkit-scrollbar-thumb {
     }
 
     .container .cardContainer .myPicture .hidden-text {
-        font-size: 1.56rem;
+        font-size: 1.6rem;
     }
 
     .container .cardContainer .ico {
@@ -722,6 +723,7 @@ html::-webkit-scrollbar-thumb {
 
     .container .cardContainer {
         position: static;
+        width: auto;
         padding: 2rem;
         margin: 0 auto;
         margin-top: 0.66rem;
@@ -742,7 +744,7 @@ html::-webkit-scrollbar-thumb {
     }
 
     .container .cardContainer .myPicture .hidden-text {
-        font-size: 1.56rem;
+        font-size: 1.6rem;
     }
 
     .container .cardContainer .ico {
