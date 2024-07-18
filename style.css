@@ -510,6 +510,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .statusbox {
     border: 0.09rem solid rgba(238, 0, 255, 0.9);
+    padding: 0;
+    /* 这里设置statusbox的内边距为0 */
     border-radius: 0.44rem;
     box-shadow: 0rem 0rem 0.49rem rgb(51, 0, 255);
     height: 0.6rem;
@@ -525,6 +527,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .htmlstatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 95%;
     height: 100%;
@@ -537,6 +541,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .cssstatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 90%;
     height: 100%;
@@ -549,6 +555,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .jsstatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 80%;
     height: 100%;
@@ -561,6 +569,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .caddstatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 65%;
     height: 100%;
@@ -573,6 +583,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .csstatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 95%;
     height: 100%;
@@ -585,6 +597,8 @@ html::-webkit-scrollbar-thumb {
 
 .container .informationContainer .boxContainer .box .pystatusbox {
     border-radius: 0.44rem;
+    margin: 0;
+    /* 这里设置htmlstatusbox的外边距为0 */
     background: linear-gradient(to right, #aa00ff, #ff72e5);
     width: 75%;
     height: 100%;
