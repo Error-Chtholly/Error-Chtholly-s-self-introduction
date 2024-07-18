@@ -599,7 +599,7 @@ html::-webkit-scrollbar-thumb {
     border: 0.09rem solid rgba(255, 255, 255, 0.9);
     border-radius: 0.44rem;
     margin: 0 0.4rem 1.4rem 0.4rem;
-    padding: 1rem;
+    padding: 0.66rem;
     text-align: center;
     align-items: center;
     box-shadow: 0rem 0rem 0.49rem rgb(200, 0, 255);
