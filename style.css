@@ -678,9 +678,9 @@ html::-webkit-scrollbar-thumb {
     }
 }
 
-@media (max-width:520px) {
+/* @media (max-width:520px) {
 
     .container .cardContainer {
-        width: auto;       
+        width: auto;
     }
-}
+} */
