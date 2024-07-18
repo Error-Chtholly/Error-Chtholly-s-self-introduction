@@ -40,15 +40,15 @@ function gotoErrorChtholly() {
     window.open("https://baike.baidu.com/item/ATRI%20-My%20Dear%20Moments-/24229590"); // 这里调用window.open()方法打开百度百科ATRI - My Dear Moments-
     window.open("https://baike.baidu.com/item/%E5%8F%AF%E5%A1%91%E6%80%A7%E8%AE%B0%E5%BF%86/15847619", "_blank"); // 这里调用window.open()方法打开新标签页
 }
-function contactlocation() {
+function contactLocation() {
     window.open("https://www.ynnu.edu.cn/");
 }
-function contactphone() {
+function contactPhone() {
     alert("My phone number is 15563168887 or 19819056097.");
 }
-function contactemail() {
+function contactEmail() {
     alert("My email address is 1696304992@qq.com or zzt15563168887@outlook.com.");
 }
-function rights() {
+function rightsReserved() {
     window.open("https://error-chtholly.github.io/Error-Chtholly-s-self-introduction/index.html");
 }
